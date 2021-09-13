@@ -68,13 +68,8 @@ namespace PublishWithConfirms
                     Console.WriteLine(" [x] Sent {0}", arg);
                 }
             }
-            while (true)
-            {
-                //Console.WriteLine("->"+ outstandingConfirms.Count);
-                System.Threading.Thread.Sleep(50);
-            }
-            //Console.WriteLine(" Press [enter] to exit.");
-            //Console.ReadLine();
+            Console.WriteLine(" Press [enter] to exit.");
+            Console.ReadLine();
         }
     }
 }
