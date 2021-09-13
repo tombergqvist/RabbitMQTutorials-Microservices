@@ -1,0 +1,16 @@
+{
+  "profiles": {
+    "ReceiveLogsDirect": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "hostname": "localhost"
+      }
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "environmentVariables": {
+        "hostname": "172.17.0.2"
+      }
+    }
+  }
+}
